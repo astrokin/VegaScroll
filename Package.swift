@@ -13,7 +13,7 @@ let package = Package(
         .target(
             name: "VegaScroll",
             dependencies: [],
-            path: "Sources"
+            path: "/"
         )
 //       ,
 //         .testTarget(
