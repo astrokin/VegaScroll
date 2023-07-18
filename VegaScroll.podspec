@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VegaScroll'
-  s.version          = '1.3'
+  s.version          = '1.4'
   s.summary          = 'VegaScroll is a beautiful alternative to the standard UICollectionView flow layout.'
   s.description      = "VegaScroll is a lightweight animation flowlayot for UICollectionView completely written in Swift 4, compatible with iOS 11 and xCode 9."
   s.homepage         = 'https://github.com/astrokin/VegaScroll'
@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/Applikey_'
 
   s.ios.deployment_target = '12.0'
-
+  s.swift_version     = '5.5'
+  
   s.source_files = 'VegaScroll/Classes/**/*'
 
 end
